@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+}
+
+form input{
+    margin: $m-size 0;
+}
+
+form textarea{
+    margin: $m-size 0;
+}
+
+form button{
+    margin: $m-size 0;
+}
+
+.react-datepicker {
+    margin: 0;
+}
+
+.form__error {
+    margin: 0 0 $m-size 0;
+    font-style: italic;
+}
+
+.date-picker {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
